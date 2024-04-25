@@ -1,0 +1,88 @@
+
+body {
+  margin: 20px;
+  padding: 0;
+  background-color: #101e3c;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container input[type="text"] {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background: #3c3c3c;
+  color: #fff;
+}
+
+.input-container button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.input-container button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.input-container button:active {
+  transform: translateY(1px);
+}
+
+.error {
+  color: #ff4d4d;
+}
+
+.wallet-info-container {
+  margin-top: 40px;
+}
+
+.wallet-info-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.wallet-info-container p {
+  margin-bottom: 10px;
+}
+
+
+.address{
+  color:rgb(234, 16, 9);
+  font-size: 20px;
+
+}
+.transaction{
+  color:rgb(251, 255, 0);
+  font-size: 20px;
+
+}
+.balance{
+  color:rgb(38, 153, 38);
+  font-size: 20px;
+
+}
